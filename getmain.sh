@@ -10,7 +10,7 @@ unzip -d ui ui.zip
 [[ -d Pages ]] || mkdir Pages
 [[ -d wwwroot ]] || mkdir wwwroot
 
-cp -r ./ui/IdentityServer.Quickstart.UI-main/Pages/* Pages
-cp -r ./ui/IdentityServer.Quickstart.UI-main/wwwroot/* wwwroot
+cp -r ./ui/IdentityServer.Quickstart.UI.AspNetIdentity-main/Pages/* Pages
+cp -r ./ui/IdentityServer.Quickstart.UI.AspNetIdentity-main/wwwroot/* wwwroot
 
 rm -rf ui ui.zip
