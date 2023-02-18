@@ -22,7 +22,7 @@ curl -L https://raw.githubusercontent.com/DuendeSoftware/IdentityServer.Quicksta
 Or you can use our [templates](https://github.com/DuendeSoftware/IdentityServer.Templates) (which will include solution and project files):
 
 ```
-dotnet new -i Duende.IdentityServer.Templates
+dotnet new install Duende.IdentityServer.Templates
 dotnet new isaspid
 ```
 
