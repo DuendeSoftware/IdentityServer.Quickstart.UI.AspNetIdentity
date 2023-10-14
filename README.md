@@ -16,7 +16,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 Or using bash one-liner on macOS or Linux:
 
 ```bash
-curl -L https://raw.githubusercontent.com/DuendeSoftware/IdentityServer.Quickstart.UI.AspNetIdentity/main/getmain.ps1 | bash
+curl -L https://raw.githubusercontent.com/DuendeSoftware/IdentityServer.Quickstart.UI.AspNetIdentity/main/getmain.sh | bash
 ```
 
 Or you can use our [templates](https://github.com/DuendeSoftware/IdentityServer.Templates) (which will include solution and project files):
